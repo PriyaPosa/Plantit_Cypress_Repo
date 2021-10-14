@@ -1,0 +1,16 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "cypress test cases",
+  "main": "index.js",
+    "scripts": {
+        //"test": "echo \"Error: no test specified\" && exit 1"
+        "test": "node_modules\\.bin\\cypress run"
+            "runtests": "npm run test .."
+    },
+  "author": "priya",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.5.0"
+  }
+}
